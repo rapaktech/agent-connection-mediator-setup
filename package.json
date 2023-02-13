@@ -1,0 +1,19 @@
+{
+  "name": "agent-connection-mediator-setup",
+  "version": "1.0.0",
+  "description": "Simple Node.js setup for credential acceptance using the Animo Community Agent and the Animo Mediator",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "repository": "https://github.com/rapaktech/agent-connection-mediator-setup.git",
+  "author": "Jim Ezesinachi <jim@animo.id>",
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "@aries-framework/core": "^0.3.3",
+    "@aries-framework/node": "^0.3.3",
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  }
+}
